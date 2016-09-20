@@ -41,7 +41,7 @@ import java.util.List;
 public class EarthquakeActivity extends AppCompatActivity
         implements LoaderCallbacks<List<Earthquake>> {
 
-    private static final String LOG_TAG = EarthquakeActivity.class.getName();
+    private static final String LOG_TAG = EarthquakeActivity.class.getSimpleName();
 
     /**
      * URL for earthquake data from the USGS dataset
